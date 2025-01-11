@@ -6,10 +6,10 @@ FIRST CREATE VAR DIRECTORY IN YOUR MAIN WORKING DIRECTORY AND THEN CREATE THESE 
 FOR test.tfvars
 
 
-region = "ap-southeast-2"
+region = "us-east-1"
 instance_type = "t2.micro"
-image_id = "ami-003f5a76758516d1e"
-key_name = "sydneykay"
+image_id = "ami-0e2c8caa4b6378d8c"
+key_name = "new"
 name = "module"
 security_groups = ["default"]
 env = "test"
@@ -18,10 +18,10 @@ env = "test"
 
 FOR prod.tfvars
 
-region = "ap-southeast-2"
+region = "us-east-1"
 instance_type = "t2.micro"
-image_id = "ami-003f5a76758516d1e"
-key_name = "sydneykay"
+image_id = "ami-0e2c8caa4b6378d8c"
+key_name = "new"
 name = "module"
 security_groups = ["default"]
 env = "prod"
